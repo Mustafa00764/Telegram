@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 
 class MainActivity : AppCompatActivity() {
+     var isMain=false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -14,12 +15,19 @@ class MainActivity : AppCompatActivity() {
     private fun initViews() {
         Handler().postDelayed({
             openStartActivity()
-        }, 3000)
+        }, 2000)
     }
 
     private fun openStartActivity() {
-        val intent = Intent(this, StartActivity::class.java)
-        startActivity(intent)
-        finish()
+        if (isMain){
+            val intent = Intent(this, OsnovaActivity::class.java)
+            startActivity(intent)
+            finish()
+        }else{
+            val intent = Intent(this,StartActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
     }
 }
