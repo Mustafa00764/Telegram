@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".RegistrActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Your phon number"
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="The world's fastest messaging app.\n It is free and secure."
+            android:textColor="#474347"
+            android:textSize="13sp"/>
+
+    <LinearLayout
+    android:layout_width="350dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/et_stil"
+    android:layout_height="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity=""
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/img_4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="USA"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|end"
+    android:layout_weight="1">
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/baseline_arrow_forward_ios_24" />
+</LinearLayout>
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_marginTop="10dp"
+            android:gravity="end|center"
+            android:background="@drawable/et_stil"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="+1"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_namber"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/et_stil2"
+            android:inputType="number"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/b_continue"
+            android:layout_width="250dp"
+            android:background="@drawable/b_stil"
+            app:backgroundTint="@null"
+            android:text="Сontinue"
+            android:layout_height="45dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

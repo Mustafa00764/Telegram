@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".OsnovaActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#0288D1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|start">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_marginRight="15dp"
+
+                android:layout_gravity="start|center_vertical"
+                android:src="@drawable/baseline_menu_24"
+                android:layout_height="25dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Telegram"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/baseline_search_24"
+                android:layout_height="25dp"/>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_weight="7"
+    android:background="#0288D1"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Все чаты"
+    android:gravity="center"
+    android:textColor="@color/white"
+    android:textSize="15sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Личные"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Новые"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/ll_people"
+                android:src="@drawable/img_6"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yellow Ara"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/ll_people"
+                android:src="@drawable/img_6"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yellow Ara"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/ll_people"
+                android:src="@drawable/img_6"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yellow Ara"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/ll_people"
+                android:src="@drawable/img_6"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yellow Ara"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/ll_people"
+                android:src="@drawable/img_6"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yellow Ara"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/ll_people"
+                android:src="@drawable/img_6"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yellow Ara"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/ll_people"
+                android:src="@drawable/img_6"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yellow Ara"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/ll_people"
+                android:src="@drawable/img_6"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yellow Ara"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/ll_people"
+                android:src="@drawable/img_6"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yellow Ara"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
